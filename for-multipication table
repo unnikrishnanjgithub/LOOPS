@@ -1,0 +1,26 @@
+import java.util.*;
+public class For_1 {
+	void mul(int y)
+	{
+		for(int i=1;i<=20;i++)
+		{
+	       int b=i*y;
+		  System.out.println(b+" = "+ i +" * "+ y);
+		}
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		For_1 s1=new For_1();
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the number");
+		int a=s.nextInt();
+		s1.mul(a);
+	 
+	 
+
+	}
+
+}
