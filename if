@@ -1,0 +1,30 @@
+package control;
+import java.util.*;
+public class If1 
+{
+	void display(int c,int d)
+	{
+		if(c>d)
+		{
+			System.out.println(c+" is greater");
+		}
+		else
+		{
+			System.out.println(d+" is greater");
+		}
+	}
+	
+
+	public static void main(String[] args) 
+	{
+		If1 s1=new If1();
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a=s.nextInt();
+		System.out.println("enter the second number");
+		int b=s.nextInt();
+		
+		s1.display(a, b);
+	}
+
+}
