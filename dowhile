@@ -1,0 +1,13 @@
+public class Dowhile_1 {
+
+	public static void main(String[] args) {
+	 int a=5;
+	 do
+	 {
+		 System.out.println("hi");
+		 a=a-1;
+	 }while(a>0);
+
+	}
+
+}
